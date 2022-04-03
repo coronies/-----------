@@ -2,3 +2,261 @@
   font-family: "Anurati-Regular";
   src: url("Anurati-Regular.woff") format("woff");
 }
+.textplanet {
+  background: rgba(255, 225, 255, 0.09);
+
+  font-family: Garamond;
+  font-size: 20px;
+  color: white;
+}
+.divmain {
+  display: flex;
+  flex-direction: row;
+}
+.divplanet {
+  flex: 1 400px;
+  margin-top: 40px;
+  margin-left: 60px;
+  background: rgba(255, 225, 255, 0.09);
+
+  flex-wrap: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.divplanetborder {
+  border: 3px solid;
+  border-radius: 50px;
+  color: #13f96f;
+}
+.divso {
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  flex: 1;
+}
+.sa {
+  margin-top: 500px;
+}
+.divtext {
+  flex: 2 400px;
+  flex-wrap: row;
+  align-items: center;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.gallerybox1 {
+  flex-wrap: row;
+  margin-left: 20px;
+  object-fit: cover;
+}
+.gallerybox2 {
+  flex-wrap: row;
+  margin-left: 20px;
+  object-fit: cover;
+}
+.gallerybox3 {
+  flex-wrap: row;
+  margin-left: 20px;
+  object-fit: cover;
+}
+.divstyle {
+  border: thick double white;
+  border-radius: 50px;
+
+  max-width: 450px;
+}
+.dsd {
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Common Pixel", sans-serif;
+  padding: 20px;
+  letter-spacing: 0.2em;
+
+  color: #00deff;
+}
+.dfa {
+  position: fixed;
+}
+.imga {
+  border-radius: 50px;
+  width: 100%;
+}
+.hrstyle {
+  color: wheat;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.h1a {
+  margin-top: 10px;
+  font-size: 32px;
+  font-family: "Common Pixel", sans-serif;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  background: linear-gradient(20deg, #ffffff 38%, #001a1e 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h2a {
+  margin-top: 10px;
+  font-size: 32px;
+  font-family: "Common Pixel", sans-serif;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  background: linear-gradient(20deg, #ffc987 38%, #2fe3ff 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h3a {
+  margin-top: 10px;
+  font-size: 32px;
+  font-family: "Common Pixel", sans-serif;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  background: linear-gradient(20deg, #ffffff 38%, #00deff 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ph {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align: center;
+  font-size: 14px;
+  background: linear-gradient(20deg, #ffffff 38%, #aae9f3 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ph1 {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align: center;
+  font-size: 14px;
+  background: linear-gradient(20deg, #ffc987 38%, #2fe3ff 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ph2 {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align: center;
+  font-size: 14px;
+  background: linear-gradient(20deg, #ffffff 38%, #00deff 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ast1 {
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 25px;
+
+  font-family: "Common Pixel", sans-serif;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  color: white;
+  align: center;
+}
+.ast1:hover {
+  color: white;
+  opacity: 0.08;
+}
+.ast2:hover {
+  color: white;
+  opacity: 0.08;
+}
+.ast3:hover {
+  color: white;
+  opacity: 0.08;
+}
+.ast2 {
+  margin-left: 150px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: "Common Pixel", sans-serif;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  color: white;
+  align: center;
+}
+.ast3 {
+  margin-left: 120px;
+  margin-top: 23px;
+  font-size: 25px;
+  font-family: "Common Pixel", sans-serif;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  color: white;
+  align: center;
+}
+
+.h1s {
+  margin-top: 10px;
+  font-size: 64px;
+  font-family: "Common Pixel", sans-serif;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  background: linear-gradient(20deg, #13f96f 38%, #00deff 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.animationp {
+  width: 80%;
+  animation: animationprev 1.25s ease forwards;
+  transition-duration: 3s;
+  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+}
+.animationp:hover {
+  animation: resize 2s ease forwards;
+  transition-duration: 3s;
+  transform: translate(-400px, 100px);
+  -webkit-transform: translate(-400px, 100px);
+  -o-transform: translate(-400px, 100px);
+  -moz-transform: translate(-400px, 100px);
+}
+@keyframes animationprev {
+  from {
+    width: 120%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes resize {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 120%;
+  }
+}
